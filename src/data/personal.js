@@ -1,12 +1,12 @@
 const personal = {
-  name: "Vivek Kumar",
+  name: "Vivek Kumar Pandit",
   title: "Full Stack Software Developer",
 
   tagline:
     "Building scalable web applications, enterprise software, and modern digital experiences.",
 
   description:
-    "I specialize in React, ASP.NET Core, Node.js, SQL Server, and cloud technologies. I enjoy solving complex business problems with clean, scalable, and maintainable software.",
+    "I specialize in React, Node.js, MySQL, PostgreSQL, SQL Server, MongoDB, ASP.NET Core and cloud technologies. I enjoy solving complex business problems with clean, scalable, and maintainable software.",
 
   stats: [
     {
@@ -15,15 +15,15 @@ const personal = {
       label: "Years Experience",
     },
     {
-      value: 20,
+      value: 4,
       suffix: "+",
       label: "Projects",
     },
-    {
-      value: 10,
-      suffix: "+",
-      label: "Happy Clients",
-    },
+    // {
+    //   value: 4,
+    //   suffix: "+",
+    //   label: "Happy Clients",
+    // },
   ],
 
   technologies: [
@@ -35,10 +35,10 @@ const personal = {
     "Azure",
   ],
 
-  resume: "https://drive.google.com/uc?export=download&id=1l9fELRNAl-Mc5iMhryAfnCnvU7Iq68p1",
-//   resume: "https://drive.google.com/file/d/1l9fELRNAl-Mc5iMhryAfnCnvU7Iq68p1/view?usp=drivesdk",
+  resume:
+    "https://drive.google.com/uc?export=download&id=1l9fELRNAl-Mc5iMhryAfnCnvU7Iq68p1",
 
-  image: "/images/profile.png",
+  image: "/images/profile.jpg",
 };
 
 export default personal;

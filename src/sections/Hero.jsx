@@ -35,7 +35,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <Badge>Available for Freelance</Badge>
+            {/* <Badge>Available for Freelance</Badge> */}
 
             <Display className="mt-6">
               Hi, I'm <GradientText>{personal.name}</GradientText>
@@ -90,21 +90,21 @@ export default function Hero() {
                   className="h-[520px] w-full rounded-3xl object-cover"
                 />
 
-                <FloatingBadge className="-left-6 top-8">
-                  React ⚛️
+                {/* <FloatingBadge className="-left-6 top-8">
+                  Reactjs
                 </FloatingBadge>
 
                 <FloatingBadge className="-right-6 top-24">
-                  ASP.NET Core
+                  Nodejs
                 </FloatingBadge>
 
                 <FloatingBadge className="-left-6 bottom-20">
-                  SQL Server
+                  MySQL
                 </FloatingBadge>
 
                 <FloatingBadge className="-right-6 bottom-10">
-                  Node.js
-                </FloatingBadge>
+                  REST API
+                </FloatingBadge> */}
               </div>
             </div>
           </motion.div>

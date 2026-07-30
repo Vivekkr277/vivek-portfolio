@@ -7,7 +7,7 @@ const projects = [
 
     category: "Travel Platform",
 
-    image: "/images/projects/safarix/cover.jpg",
+    image: "/images/projects/safarix.png",
 
     shortDescription:
       "Complete travel booking platform for flights, hotels, buses, and insurance.",
@@ -19,7 +19,7 @@ const projects = [
 
     client: "Private Client",
 
-    duration: "6 Months",
+    duration: "2025 - Present",
 
     technologies: [
       "React",
@@ -51,14 +51,12 @@ const projects = [
     ],
 
     screenshots: [
-      "/images/projects/safarix/1.jpg",
-      "/images/projects/safarix/2.jpg",
-      "/images/projects/safarix/3.jpg",
+      "/images/projects/safarix.png"
     ],
 
-    github: "#",
+    github: "",
 
-    live: "#",
+    live: "https://safarixjourneys.com/",
   },
 
   {
@@ -69,7 +67,7 @@ const projects = [
 
     category: "Enterprise Application",
 
-    image: "/images/projects/mfin/cover.jpg",
+    image: "/images/projects/mfin.png",
 
     shortDescription:
       "Enterprise financial management portal with dashboards and reporting.",
@@ -81,7 +79,7 @@ const projects = [
 
     client: "MFIN India",
 
-    duration: "4 Months",
+    duration: "2024 - Present",
 
     technologies: [
       "React",
@@ -114,69 +112,133 @@ const projects = [
       "/images/projects/mfin/3.jpg",
     ],
 
-    github: "#",
+    github: "",
 
-    live: "#",
+    live: "https://datahub.mfinindia.org/",
   },
 
-  {
-    id: 3,
-    slug: "frelixa",
+ {
+  id: 3,
+  slug: "nuvoco-mera-bharosa",
 
-    title: "Frelixa",
+  title: "Nuvoco - Mera Bharosa",
 
-    category: "Agency Website",
+  category: "Enterprise Dealer Engagement Platform",
 
-    image: "/images/projects/frelixa/cover.jpg",
+  image: "/images/projects/nuvoco.png",
 
-    shortDescription:
-      "Modern digital agency website built with React and Framer Motion.",
+  shortDescription:
+    "AI-powered dealer engagement platform for automated image processing, personalized video generation, and branding campaigns.",
 
-    description:
-      "Frelixa is a premium agency portfolio designed to showcase digital services including web development, mobile applications, UI/UX design, and branding. The website emphasizes clean design, smooth animations, and excellent performance.",
+  description:
+    "Nuvoco - Mera Bharosa is an enterprise dealer engagement platform developed to streamline branding campaigns for hundreds of dealers across India. The platform enables mobile-first dealer onboarding, image uploads, AI-powered image enhancement, automatic creative generation, personalized promotional videos, approval workflows, and WhatsApp-ready content distribution through a centralized admin dashboard.",
 
-    role: "Founder & Full Stack Developer",
+  role: "Full Stack Developer",
 
-    client: "Personal Brand",
+  client: "Nuvoco Vistas Corp. Ltd.",
 
-    duration: "Ongoing",
+  duration: "2026 - Present",
 
-    technologies: [
-      "React",
-      "Vite",
-      "Tailwind CSS",
-      "Framer Motion",
-      "React Router",
-    ],
+  technologies: [
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "Sharp",
+    "AI Image Processing",
+    "FFmpeg"
+  ],
 
-    features: [
-      "Responsive Design",
-      "Dark Theme",
-      "Animated UI",
-      "SEO Friendly",
-      "Modern Components",
-      "Reusable Architecture",
-      "Service Showcase",
-      "Project Portfolio",
-      "Contact Form",
-    ],
+  features: [
+    "Dealer Registration & OTP Verification",
+    "Mobile-first Dealer Onboarding",
+    "Dealer Image Upload",
+    "AI Background Removal",
+    "AI Image Enhancement",
+    "Automated Banner Generation",
+    "Personalized Dealer Video Generation",
+    "Admin Approval & Rejection Workflow",
+    "Dealer Image Gallery",
+    "WhatsApp-ready Media Distribution",
+    "Reporting Dashboard",
+    "Search & Download Dealer Assets"
+  ],
 
-    challenges: [
-      "Creating reusable UI components",
-      "Designing premium user experience",
-      "Maintaining high Lighthouse performance",
-    ],
+  challenges: [
+    "Processing low-quality dealer-uploaded images",
+    "Automating personalized video generation at scale",
+    "Building a reusable media generation pipeline",
+    "Managing large-scale dealer approval workflows",
+    "Optimizing image processing and delivery performance"
+  ],
 
-    screenshots: [
-      "/images/projects/frelixa/1.jpg",
-      "/images/projects/frelixa/2.jpg",
-      "/images/projects/frelixa/3.jpg",
-    ],
+  screenshots: [
+    "/images/projects/nuvoco/1.jpg",
+    "/images/projects/nuvoco/2.jpg",
+    "/images/projects/nuvoco/3.jpg"
+  ],
 
-    github: "#",
+  github: "",
 
-    live: "#",
-  },
+  live: "https://merabharosa.com/login"
+}
+  // {
+  //   id: 3,
+  //   slug: "frelixa",
+
+  //   title: "Frelixa",
+
+  //   category: "Agency Website",
+
+  //   image: "/images/projects/frelixa/cover.jpg",
+
+  //   shortDescription:
+  //     "Modern digital agency website built with React and Framer Motion.",
+
+  //   description:
+  //     "Frelixa is a premium agency portfolio designed to showcase digital services including web development, mobile applications, UI/UX design, and branding. The website emphasizes clean design, smooth animations, and excellent performance.",
+
+  //   role: "Founder & Full Stack Developer",
+
+  //   client: "Personal Brand",
+
+  //   duration: "Ongoing",
+
+  //   technologies: [
+  //     "React",
+  //     "Vite",
+  //     "Tailwind CSS",
+  //     "Framer Motion",
+  //     "React Router",
+  //   ],
+
+  //   features: [
+  //     "Responsive Design",
+  //     "Dark Theme",
+  //     "Animated UI",
+  //     "SEO Friendly",
+  //     "Modern Components",
+  //     "Reusable Architecture",
+  //     "Service Showcase",
+  //     "Project Portfolio",
+  //     "Contact Form",
+  //   ],
+
+  //   challenges: [
+  //     "Creating reusable UI components",
+  //     "Designing premium user experience",
+  //     "Maintaining high Lighthouse performance",
+  //   ],
+
+  //   screenshots: [
+  //     "/images/projects/frelixa/1.jpg",
+  //     "/images/projects/frelixa/2.jpg",
+  //     "/images/projects/frelixa/3.jpg",
+  //   ],
+
+  //   github: "#",
+
+  //   live: "#",
+  // },
 ];
 
 export default projects;

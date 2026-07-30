@@ -12,14 +12,16 @@ import {
 
 const skills = [
   "React",
-  "ASP.NET Core",
   "Node.js",
   "SQL Server",
   "MySQL",
+  "PostgreSQL",
   "MongoDB",
   "Entity Framework",
   "REST API",
+  "JWT Authentication",
   "Git",
+  "ASP.NET Core",
   "Azure",
 ];
 
@@ -31,7 +33,7 @@ const highlights = [
   },
   {
     icon: FiCode,
-    title: "20+ Projects",
+    title: "4+ Projects",
     text: "From business websites to ERP systems.",
   },
   {
@@ -61,13 +63,13 @@ export default function About() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <div className="overflow-hidden rounded-3xl border border-white/10 bg-zinc-900">
+            {/* <div className="overflow-hidden rounded-3xl border border-white/10 bg-zinc-900">
               <img
                 src="/images/profile.png"
                 alt="Vivek Kumar"
                 className="w-full object-cover"
               />
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Right */}
@@ -121,12 +123,7 @@ export default function About() {
               ))}
             </div>
 
-            <div className="mt-10">
-              <Button>
-                <FiDownload className="mr-2" />
-                Download Resume
-              </Button>
-            </div>
+
           </motion.div>
 
         </div>
